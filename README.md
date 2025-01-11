@@ -1,0 +1,3 @@
+# Data Race in Rust Vector using unsafe code
+This repository demonstrates a common mistake when using `unsafe` code in Rust that can lead to data races. The example involves modifying a vector's element through a raw pointer, which can cause unexpected behavior and memory corruption.
+The `bug.rs` file contains the faulty code, whereas `bugSolution.rs` demonstrates a safer and more idiomatic way to achieve the same result, avoiding the use of raw pointers and preventing data races.
